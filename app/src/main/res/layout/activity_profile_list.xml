@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileList">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="120sp"
+            android:layout_height="120sp"
+            app:srcCompat="@drawable/img_2" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="289dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Артем Окушко"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="120sp"
+            android:layout_height="120sp"
+            app:srcCompat="@drawable/img_3" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="289dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Artem Okushko"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="120sp"
+            android:layout_height="120sp"
+            app:srcCompat="@drawable/img_5" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="289dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Данил Полевой"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="120sp"
+            android:layout_height="120sp"
+            app:srcCompat="@drawable/img_4" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="289dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Михаил Зяблик"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="125sp"
+            android:layout_height="125sp"
+            app:srcCompat="@drawable/img_15" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="289dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Полина Гагарина"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="295dp">
+
+        <ImageView
+            android:id="@+id/imageView25"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            app:srcCompat="@drawable/img_14" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="289dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Аркадий Кирсанов"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+    </TableRow>
+
+</TableLayout>
